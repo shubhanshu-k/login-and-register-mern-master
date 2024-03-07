@@ -1,7 +1,7 @@
 
 .register {
     width: 400px;
-    background: #fff;
+    background: #1d2c4f;
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
     border-radius: 8px;
@@ -12,7 +12,7 @@
 
 .register > input {
     border-radius: 8px;
-    border: 2px solid #dddfe2;
+    border: 2px solid;
     outline: none;
     color: #1d2129;
     margin: 0.5rem 0;
@@ -22,8 +22,8 @@
 }
 
 .register > .button {
-    background: #1877f2;
-    border: 1px solid #1877f2;
+    background: #00f5e1;
+    border: 1px solid;
     color: #fff;
     font-size: 1.25rem;
     padding: 0.5rem;
@@ -31,5 +31,12 @@
     border-radius: 8px;
     outline: none;
     cursor: pointer;
+    color: #1d2c4f;
+}
+
+
+.register > .button-hover{
+    background-color: #00c9b1;
+
 }
 

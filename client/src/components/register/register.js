@@ -82,11 +82,11 @@ const Register = () => {
       ></input>{" "}
       {/* Add input field for date of birth */}
       <div className="button" onClick={register}>
-        Register
+        REGISTER
       </div>
       <div>or</div>
       <div className="button" onClick={() => history.push("/login")}>
-        Login
+        LOGIN
       </div>
     </div>
   );

@@ -51,11 +51,11 @@ const Login = ({ setLoginUser }) => {
         placeholder="Enter your Password"
       ></input>
       <div className="button" onClick={login}>
-        Login
+        LOGIN 
       </div>
       <div>or</div>
       <div className="button" onClick={() => history.push("/register")}>
-        Register
+        REGISTER
       </div>
     </div>
   );
